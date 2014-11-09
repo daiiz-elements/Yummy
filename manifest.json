@@ -1,0 +1,17 @@
+{
+  "name": "Yummy",
+  "description": "Yummy - Demo for <griddles-ui-card>",
+  "version": "0.3.0",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": {
+    "48":  "yummy.png",
+    "16":  "yummy.png",
+    "128": "yummy.png"
+  },
+  "permissions": ["storage", "unlimitedStorage", "<all_urls>"]
+}
